@@ -1,0 +1,221 @@
+/* Main Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1a1a2e;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: #fff !important;
+}
+
+.nav-link {
+    color: rgba(255,255,255,0.8) !important;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: white;
+    border-radius: 10px;
+    padding: 3rem;
+    margin-bottom: 2rem;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.card-header {
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #1a1a2e;
+    border-color: #1a1a2e;
+}
+
+.btn-primary:hover {
+    background-color: #0f3460;
+    border-color: #0f3460;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+/* Badges */
+.badge {
+    padding: 5px 10px;
+    font-weight: 500;
+}
+
+.bg-primary {
+    background-color: #1a1a2e !important;
+}
+
+/* Tables */
+.table {
+    margin-bottom: 0;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+/* Alerts */
+.alert {
+    border-radius: 5px;
+}
+
+/* Forms */
+.form-control, .form-select {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a2e;
+    color: white;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 2rem 1rem !important;
+    }
+    
+    .card-img-top {
+        height: 150px;
+    }
+    
+    .display-4 {
+        font-size: 2.5rem;
+    }
+    /* Container dan Card */
+.container {
+    max-width: 1100px;
+}
+
+.card {
+    border-radius: 12px;
+    border: none;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+/* Judul Halaman */
+h2.mb-4 {
+    font-weight: 700;
+    color: #2c3e50;
+    letter-spacing: 1px;
+}
+
+/* Tabel */
+.table {
+    font-size: 1rem;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table thead.table-primary {
+    background: #007bff;
+    color: #fff;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #f8f9fa;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* Badge Status */
+.badge.bg-success {
+    background-color: #28a745 !important;
+}
+.badge.bg-warning {
+    background-color: #ffc107 !important;
+    color: #212529 !important;
+}
+.badge.bg-danger {
+    background-color: #dc3545 !important;
+}
+
+/* Dropdown & Button */
+.btn-info {
+    background-color: #17a2b8;
+    border: none;
+    color: #fff;
+}
+.btn-info:hover {
+    background-color: #138496;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+.btn-secondary:hover {
+    background-color: #565e64;
+}
+
+/* Responsive Table */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1rem;
+    }
+    .table {
+        font-size: 0.95rem;
+    }
+}
+}

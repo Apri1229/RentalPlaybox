@@ -1,0 +1,108 @@
+/* Login Page Styles */
+body.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+/* Login Container */
+.container.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+/* Login Title */
+.login-title {
+    color: #1a1a2e;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.login-subtitle {
+    color: #6c757d;
+    font-size: 1rem;
+}
+
+/* Login Card */
+.login-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.login-card .card-body {
+    padding: 2rem;
+}
+
+/* Role Selector */
+.role-selector {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.role-btn {
+    padding: 10px 20px;
+    border: 2px solid #dee2e6;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: 500;
+    text-align: center;
+}
+
+.role-btn:first-child {
+    border-radius: 5px 0 0 5px;
+    border-right: none;
+}
+
+.role-btn:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+.role-btn.active {
+    background: #1a1a2e;
+    color: white;
+    border-color: #1a1a2e;
+}
+
+.role-btn input {
+    display: none;
+}
+
+/* Login Button */
+.login-btn {
+    background-color: #1a1a2e;
+    border-color: #1a1a2e;
+    padding: 10px;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #0f3460;
+    border-color: #0f3460;
+}
+
+/* Login Links */
+.login-links a {
+    color: #1a1a2e;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.login-links a:hover {
+    color: #0f3460;
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+    .login-card .card-body {
+        padding: 1.5rem;
+    }
+    
+    .role-btn {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+}
